@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c;
+	char ch;
+	printf("Hello World");
+	printf("Enter A value");
+	scanf("%d",&a);
+	printf("Enter B value");
+	scanf("%d",&b);
+	printf("Enter Operator Symbol to perform Operation ...\n\n");
+ 	printf("(+)Add, (-)Subtract, (*)Multiply, (/)Divide, or (%)Module?\n\n");
+ 	printf("Enter Your Choice");
+ 	
+    do{
+ 		
+ 		scanf("%c",&ch);
+ 		
+	 }	while(ch!='+' && ch!='-' && ch!='*' && ch!='/' && ch!='%');
+
+
+  printf("\n");
+	switch(ch)
+	{
+	case '+':
+	c=a+b;
+	printf("\n Addition value is %d",c);
+	break;
+	case '-':
+	c=a-b;
+	printf("\n Subtraction value is %d",c);
+	break;
+	case '*':
+	c=a*b;
+	printf("\n Multiplication value is %d",c);
+	break;
+	case '/':
+	c=a/b;
+	printf("\n Division value is %d",c);
+	break;
+	
+	case '%':
+	c=a%b;
+	printf("\n Modulos values is %d",c);
+	break;
+  }
+	
+}
