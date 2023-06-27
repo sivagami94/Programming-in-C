@@ -5,9 +5,9 @@ void main()
 	int a,b,c;
 	char ch;
 	printf("Hello World");
-	printf("Enter A value");
+	printf("Enter First Value");
 	scanf("%d",&a);
-	printf("Enter B value");
+	printf("Enter Second Value");
 	scanf("%d",&b);
 	printf("Enter Operator Symbol to perform Operation ...\n\n");
  	printf("(+)Add, (-)Subtract, (*)Multiply, (/)Divide, or (%)Module?\n\n");
