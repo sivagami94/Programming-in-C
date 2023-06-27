@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	int a,b,c;
+	char op;
+	
+	printf("Enter First Value");
+	scanf("%d",&a);
+	printf("Enter Second Value");
+	scanf("%d",&b);
+	printf("If U want Add two number press + key\n\nIf U want subtract two number press - key\n\nIf U want multiplication two number press * key\n\nIf U want Divide two number press / key\n\nIf U want get remainder two number press % key");
+	printf("\n\nEnter ur choice");
+	do{
+		
+		op=getchar();
+	}while(op!='+'&&op!='-'&&op!='*'&&op!='/'&&op!='%');
+	
+	if(op=='+'){
+		printf("\n\nAddition operation performed");
+		c=a+b;
+		printf("\n\nAddition of two values: %d",c);
+	}
+	
+	else if(op=='-'){
+		printf("\n\nSubtraction operation performed");
+		c=a-b;
+		printf("\n\nSubtraction of two values: %d",c);
+	}
+	
+	else if(op=='*'){
+		printf("\n\nMultiplication operation performed");
+		c=a*b;
+		printf("\n\nMultiplication of two values: %d",c);
+	}
+	
+	else if(op=='/'){
+		printf("\n\nDivision operation performed");
+		c=a/b;
+		printf("\n\nDivision of two values: %d",c);
+	}
+	
+	else if(op=='%'){
+		printf("\n\nModule operation performed");
+		c=a%b;
+		printf("\n\nModule of two values: %d",c);
+	}
+	
+	else{
+		printf("\n\nYour operation not in list.\n pls Try again");
+	}
+	
+}
