@@ -10,7 +10,7 @@ void main()
 	printf("Enter Second Value");
 	scanf("%d",&b);
 	printf("Enter Operator Symbol to perform Operation ...\n\n");
- 	printf("(+)Add, (-)Subtract, (*)Multiply, (/)Divide, or (%)Module?\n\n");
+ 	printf("(+)Add, (-)Subtract, (*)Multiply, (/)Divide, or (%%)Module?\n\n");
  	printf("Enter Your Choice");
  	
     do{
